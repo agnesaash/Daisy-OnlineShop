@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="lpart1">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html">Shop Online</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            </div>
+            <div class="shade1">
+            </div> 
+            <div class="lbox1">
+                <img id="logo" src="./images/logo.png" alt="">
+                <p id="welcome" >Welcome Back !</p>
+                <form name="loginForm" onsubmit="return logInForm()" method="GET" action="./index.html">
+                    <input id="username" type="text" placeholder="Username" name="username" id="user"><br/><br/><br/><br/>
+                    <input id="password" type="password" placeholder="Password" name="password" id="pass"><br/><br/><br/><br/>
+                    <input id="button" type="submit" name="button" value="Log In">
+                </form>
+            </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

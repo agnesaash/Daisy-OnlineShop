@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Order Now</title>
+</head>
+<body>
+   <div class="order">
+    <img src="./images/otext.jpg" alt="">
+    <a href="product.html"><img id="b" src="./images/return.png" alt=""></a>
+    <div id="all">
+    <p>PERSONAL INFORMATION</p>
+    <form action="" name="orderform">
+        <input type="text" id="firstname" name="firstname" placeholder="First Name"><br/><br/><br/>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name"><br/><br/><br/>
+        <input type="text" id="phone" name="phone" placeholder="Phone Number"><br/><br/><br/>
+        <input type="email" id="email" name="email" placeholder="Email">
+    </form>
+    <p id="dev">DELIVERY METHOD & ADDRESS</p>
+    
+        <select name="City" id="dropdwn">
+            <option value="city">City </option>
+            <option value="Decan" >Decan</option>
+            <option value="Peje">Peje</option>
+            <option value="Kline">Kline</option>
+            <option value="Gjakove">Gjakove</option>
+            <option value="Prishtine">Prishtine</option>
+            <option value="Gjilan">Gjilan</option>
+            <option value="Ferizaj">Ferizaj</option>
+            <option value="Mitrovice">Mitrovice</option>
+        </select>
+        <select name="Shipping options" id="dropdwn1">
+            <option value="shipping">Shipping Options</option>
+            <option value="standard">via Standard Shipping</option>
+            <option value="premium">via Premium Shipping</option>
+            <option value="fedex">via Fedex IP</option>
+            <option value="ups">via UPS Express Saver</option>
+            <option value="ups1">via UPS Expedited</option>
+            <option value="dhl">via DHL</option>
+        </select>
+        <input id="address" type="text" placeholder="Address">
+        <p id="pay">PAYMENT METHOD</p>
+        <div class="payment">
+            <input type="radio" name="visa"  >
+            <label id="visa" for="visa">Visa, MasterCard</label>
+            <br/><br/>
+            <input type="radio" name="visa">
+            <label id="paypal" for="paypal">PayPal</label>
+            <img src="./images/visa.png" alt="">
+            <img src="./images/paypal.png" id="paypalimg" alt="">
+        </div>
+    </div>
+        <div class="capbox">
+            <div id="capbox1">
+        <p id="item">BALENCIAGA</span><br/><br/>
+            Embroidered Cotton-Twill Baseball Cap</p>
+            <img id="item1" src="./images/a1back.png" alt="">
+            </div>
+            <button id="submitP" onclick="orderForm()"><a href="package.html"> Order Now </a></button>
+        
+        </div>
+        <div class="submit" id="submitshow">
+            <div class="shadesubmit">
+            <p id="submitText">Thank you for trusting us. <br/>
+            Your package will be delivered <br/>soon.<br/><br/>
+        w love , DAISY's team.
+        </p>
+     </div>
+     <a href="shop.html"><img  id="returnHome" src="./images/return.png" alt=""></a>
+     <p id="goback" >Go back to Online Shop</p>
+        </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>

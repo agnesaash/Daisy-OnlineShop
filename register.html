@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="rpart1">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html">Shop Online</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+            </div>
+            <div class="rshade">
+         </div>
+         <div class="rbox">
+             <img id="logo" src="./images/logo.png" alt="">
+             <p id="welc"> Welcome !</p>
+             <form name="registerform" onsubmit="return registerForm()" method="GET" action="./index.html">
+                <input type="text" name="username" placeholder="Username"><br/><br/><br/><br/>
+                <input type="text" name="surname" placeholder="Surname"><br/><br/><br/><br/>
+                <input type="email" name="email" placeholder="Email"><br/><br/><br/><br/>
+                <input type="password" name="password" placeholder="Password"><br/><br/><br/><br/>
+                <input type="password" name="password1" placeholder="Re-enter Password"><br/><br/><br/><br/>
+                <input id="bttnn" name="rbutton" type="submit" value="Register">
+
+             </form>
+         </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
